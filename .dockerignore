@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Data & notebooks
+data/
+notebooks/
+mlruns/
+*.png
+*.csv
+
+# ML artifacts (loaded from MLflow at runtime)
+
+
+# Infrastructure
+mflow-setup-with-garage/
+
+# Dev & CI
+.git/
+.dvc/
+dvc.lock
+dvc.yaml
+*.http
+*.md
+
+# Secrets
